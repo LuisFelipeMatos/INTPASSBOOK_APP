@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebasetest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_user"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_user_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirebaseTest">
+        <activity android:name=".ObsDoencasActivity" android:parentActivityName=".DoencasActivity"></activity>
+        <activity
+            android:name=".ObservacaoActivity"
+            android:parentActivityName=".DoencasActivity" />
+        <activity android:name=".AlterarSenhaActivity" />
+        <activity
+            android:name=".DoencasActivity"
+            android:parentActivityName=".PrimeiraRepeticaoActivity" />
+        <activity
+            android:name=".PrimeiraRepeticaoActivity"
+            android:parentActivityName=".PreviewTalhaoActivity" />
+        <activity
+            android:name=".PreviewTalhaoActivity"
+            android:parentActivityName=".TelaPrincipal" />
+        <activity
+            android:name=".ConfiguracoesActivity"
+            android:parentActivityName=".TelaPrincipal" />
+        <activity android:name=".TelaPrincipal" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CadastroActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Capture"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme" />
+    </application>
+
+</manifest>

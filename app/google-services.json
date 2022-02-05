@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "930264225665",
+    "firebase_url": "https://projeto-intpassbook-default-rtdb.firebaseio.com",
+    "project_id": "projeto-intpassbook",
+    "storage_bucket": "projeto-intpassbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930264225665:android:846e1f9c58295710af7a80",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930264225665-shkasov633ge2ui96ctqp0np5v9ho8m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasetest",
+            "certificate_hash": "2b8126ae5100fc1bd103e636dde52a1619a6dae7"
+          }
+        },
+        {
+          "client_id": "930264225665-5nra351ce4muj5hkpjj53uid69e69qm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIxJQAP2gKixBp_EsgyfoQsULIKMjC0IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930264225665-5nra351ce4muj5hkpjj53uid69e69qm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
